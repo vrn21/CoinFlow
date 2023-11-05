@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: {
-        '64':'65.84px',
+        '72':'72.84px',
       },
 
       backgroundImage: {
