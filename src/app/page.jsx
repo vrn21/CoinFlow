@@ -1,6 +1,7 @@
 import NavbarC from './components/NavbarC'
 import Hero from './components/Hero'
 import Checkboxes from './components/Checkboxes'
+import Cards from './components/About'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <NavbarC />
       <Hero />
       <Checkboxes />
+      <Cards />
     </div>
   )
 }
