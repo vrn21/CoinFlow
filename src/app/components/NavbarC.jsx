@@ -5,6 +5,8 @@ import AboutNavbar from "./Navbar/AboutNavbar";
 import ContactNavbar from "./Navbar/ContactNavbar";
 import DocsNavbar from "./Navbar/DocsNavbar";
 import ExploreNavbar from "./Navbar/ExploreNavbar";
+import ConnectWalletButton from "./ConnectWalletButton";
+
 
 
 export default function NavbarC(){
@@ -30,9 +32,7 @@ export default function NavbarC(){
             </NavbarContent>
             <NavbarContent justify="end">
             <NavbarItem>
-                <Button as={Link} color="primary" href="#" variant="flat">
-                Connect Wallet
-                </Button>
+                <ConnectWalletButton />
             </NavbarItem>
             </NavbarContent>
         </Navbar>
