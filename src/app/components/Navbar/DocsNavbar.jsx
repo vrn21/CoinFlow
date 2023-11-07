@@ -12,7 +12,7 @@ export default function DocsNavbar(){
             <div className="text-small font-bold">Docs?</div>
             <div className="text-tiny">
                 <p>When life gives you lemons,</p>
-                <p>you take 'em, so here's a lemon🍋</p>
+                <p>you take &rsquo;em, so here&rsquo;s a lemon🍋</p>
             </div>
           </div>
         </PopoverContent>
