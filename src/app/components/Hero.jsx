@@ -3,9 +3,9 @@ import { Button } from "@nextui-org/react";
 
 export default function Hero() {
   return (
-    <div className="flex justify-center p-[185px] flex-col"> 
+    <div className="flex justify-center flex-col sm:p-[185px] pt-24"> 
     <div>
-      <p className=" text-8xl font-bold leading-72 text-center block">Not your ordinary <br/> Blockchain  
+      <p className="sm:text-8xl sm:leading-72 text-5xl leading-10 font-bold  text-center block">Not your ordinary <br/> Blockchain  
             <span className="italic font-semibold"> scanner</span>
       </p>
     </div>

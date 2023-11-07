@@ -20,7 +20,7 @@ const ConnectWalletButton = () => {
     };
 
     return (
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleConnect}>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold text-[10px] px-1 rounded sm:py-2 sm:px-4  sm:text-base " onClick={handleConnect}>
             Connect Wallet
         </button>
     );
