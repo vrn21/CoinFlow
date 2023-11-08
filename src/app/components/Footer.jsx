@@ -20,9 +20,9 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col justify-center gap-3 text-center">
                         <Link href="#" color="foreground" className="text-slate-300 hover:text-slate-300 sm:text-base text-sm">Socials</Link>
-                        <Link href="#" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Github</Link>
-                        <Link href="#" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Twitter/X</Link>
-                        <Link href="#" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Linkedin</Link>
+                        <Link href="https://github.com/vrn21/" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Github</Link>
+                        <Link href="https://x.com/theVRN21" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Twitter/X</Link>
+                        <Link href="https://www.linkedin.com/in/hi-from-varun-/" color="foreground" className="text-slate-500 hover:text-slate-300 sm:text-base text-sm">Linkedin</Link>
                     </div>
                 </div>
                 
