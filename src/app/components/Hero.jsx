@@ -1,4 +1,5 @@
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -10,9 +11,11 @@ export default function Hero() {
       </p>
     </div>
     <div className="flex justify-center">
-      <Button radius="full" className="bg-gradient-to-tr from-yellow-400 to-orange-400 text-white shadow-lg text-2xl  p-7 mt-10 hover:bg-orange-400">
-      Lets start scanning &#8594;
-    </Button>
+      <Link href="/scanner">
+        <Button radius="full" className="bg-gradient-to-tr from-yellow-400 to-orange-400 text-white shadow-lg text-2xl  p-7 mt-10 hover:bg-orange-400">
+          Lets start scanning &#8594;
+        </Button>
+      </Link>
     </div>
     </div>
   )
