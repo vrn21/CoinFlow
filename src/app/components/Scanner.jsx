@@ -13,6 +13,9 @@ export default function Scanner() {
             </NavbarBrand>
         </Navbar>
         </div>
+        <div>
+            
+        </div>
     </div>
   )
 }
